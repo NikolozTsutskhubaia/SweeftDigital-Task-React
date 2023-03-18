@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 75rem;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: rgb(192, 192, 192);
+  border-image: initial;
+}
+
+.mainInfo {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+
+.profile img {
+  height: 12.5rem;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userAddress {
+  display: flex;
+  flex-direction: column;
+}
+
+.friendsTitle {
+  margin-left: 1rem;
+}

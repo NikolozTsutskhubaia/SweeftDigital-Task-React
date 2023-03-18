@@ -1,0 +1,16 @@
+.users {
+  margin: 0.6rem auto;
+  padding: 0 12%;
+  box-sizing: border-box;
+  width: 88%;
+  max-width: 1800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+  grid-gap: 1.2rem 1.5rem;
+  grid-column-end: auto;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
